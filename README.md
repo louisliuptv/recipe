@@ -32,11 +32,11 @@
 - Implement RecipeListViewModel and RecipeDetailViewModel
 - Use Navigation Component when navigating between List and Detail screens
 
-### 3. **More Unit Testing**
-- Data Layer like datasource, mapping, repository should be tested in isolation
-
 ### 4. **Implement Atomic Design for UI components**
 - Split Screen into Templates, Organisms, Molecules and Atoms, add more reusable UI to design system module
+
+### 5. **More Unit Testing**
+- Data Layer like datasource, mapping, repository should be tested in isolation
 
 
 ## Running Tests
