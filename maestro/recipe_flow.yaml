@@ -1,0 +1,17 @@
+appId: com.example.colesexercise
+name: Recipe App Flow Test
+---
+- launchApp
+
+- setOrientation: PORTRAIT
+- assertVisible: "Ingredients"
+- takeScreenshot:
+      path: portrait_default.png
+
+- setOrientation: LANDSCAPE_LEFT
+- assertVisible: "RECIPE"
+- takeScreenshot:
+      path: landscape_grid.png
+
+- takeScreenshot:
+      path: recipe_flow.png
